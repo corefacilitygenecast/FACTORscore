@@ -1,5 +1,6 @@
 # FACTORscore
-##1. Introduction
+1. Introduction
+===============
 This script can process any continuous data(eg. RNA expressing data and CNV log2ratio values) to establish the FACTORscore, refering to this literature: Tumor microenvironment characterization in gastric cancer identifies prognostic and immunotherapeutically relevant gene signatures.
 
 FACTORscore is an R script. 
@@ -11,7 +12,7 @@ Main steps:
     CNVscore=∑PC1i – ∑PC1j
 where i is the PC1 of groups whose HR is larger than 1, and j is the PC1 of groups whose HR less than 1.
 
-##2. R packages version:
+2. R packages version:
    R                    : 3.5.1
    getopt               : 1.20.2
    ConsensusClusterPlus : 1.46.0
