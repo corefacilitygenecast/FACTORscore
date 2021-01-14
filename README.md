@@ -4,8 +4,6 @@
 -----------------
 This script can process any continuous data(eg. RNA expressing data and CNV log2ratio values) to establish the FACTORscore, refering to this literature: Tumor microenvironment characterization in gastric cancer identifies prognostic and immunotherapeutically relevant gene signatures.
 
-FACTORscore is an R script. 
-
 Main steps: 
 1. Normalized the data for unsupervised clustering. Cluster analysis was conducted using the ConsensusClusterPlus package in R. 
 2. Sample groups are identified by Kaplan-Meier (KM) survival analysis among cluster groups and unsupervised clustering methods in item-consensus and cluster-consensus plots. 
@@ -43,7 +41,7 @@ where i is the PC1 of groups whose HR is larger than 1, and j is the PC1 of grou
     format of input matrix file：
         top-left cell： must be "sample" character.
         CNV data     ： row names are samples, columns names are genes;
-        RNA data     ： （1）fpkm/tpm by gene：row names are samples, column names are genes;
+        RNA data     ：（1）fpkm/tpm by gene：row names are samples, column names are genes;
                        （2）fpkm/tpm by transcript：column names are samples, row names are genes.
 format of time file：the title of this file must be "sample    OS  re" separated by tab.<br>
 
