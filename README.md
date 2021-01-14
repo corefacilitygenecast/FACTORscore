@@ -9,7 +9,7 @@ Main steps:
 2. Sample groups are identified by Kaplan-Meier (KM) survival analysis among cluster groups and unsupervised clustering methods in item-consensus and cluster-consensus plots. 
 3. Subsequently, the wilcoxon rank-sum test or Kruskal-Wallis test was utilized to perform differential analysis for each gene among the sample groups, and the genes with p-value < 0.05 were identified as differential genes. The consensus clustering algorithm was also applied to define the cluster of differential genes. 
 4. the Principal Component Analysis (PCA) algorithm was used to perform dimension reduction in order to obtain principal component 1 of each gene group. The PC1 value of gene groups was performed cox regression analysis to validate positive or negative of coefficient. Then we applied a method to define the FACTORscore of each sample:<br>
-    <div align=center>![image](https://github.com/shuijingnvhaifl/image/blob/main/CNVscore.png)width="10" height="2" /></div>
+    ![image](https://github.com/shuijingnvhaifl/image/blob/main/CNVscore.png)
 where i is the PC1 of groups whose HR is larger than 1, and j is the PC1 of groups whose HR less than 1.
 
 ## 2. R packages version:
