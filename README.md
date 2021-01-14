@@ -15,21 +15,21 @@ Main steps:
 where i is the PC1 of groups whose HR is larger than 1, and j is the PC1 of groups whose HR less than 1.
 
 ## 2. R packages version:
-   R                    : 3.5.1<br>
-   getopt               : 1.20.2<br>
-   ConsensusClusterPlus : 1.46.0<br>
-   ggsci                : 2.9<br>
-   ggplot2              : 3.3.2<br>
-   ComplexHeatmap       : 1.18.1<br>
-   circlize             : 0.4.9<br>
-   ggpubr               : 0.2<br>
-   tidyverse            : 1.3.0<br>
-   FactoMineR           : 1.41<br>
-   factoextra           : 1.0.5<br>
-   survminer            : 0.4.4.999<br>
-   survival             : 3.1.8<br>
-   broom                : 0.5.6<br>
-   stringr              : 1.4.0<br>
+    R　　　　　　　　　　　　: 3.5.1<br>
+    getopt　　　　　　　　　: 1.20.2<br>
+    ConsensusClusterPlus : 1.46.0<br>
+    ggsci                : 2.9<br>
+    ggplot2              : 3.3.2<br>
+    ComplexHeatmap       : 1.18.1<br>
+    circlize             : 0.4.9<br>
+    ggpubr               : 0.2<br>
+    tidyverse            : 1.3.0<br>
+    FactoMineR           : 1.41<br>
+    factoextra           : 1.0.5<br>
+    survminer            : 0.4.4.999<br>
+    survival             : 3.1.8<br>
+    broom                : 0.5.6<br>
+    stringr              : 1.4.0<br>
    
 ## 3. Usage
   Rscript FactorScore.R [-[-help|h]] [-[-input|i] <character>] [-[-time|t] <character>] [-[-fpkm|f] <character>] [-[-outdir|o] <character>] [-[-prefix|p] <character>]<br>
