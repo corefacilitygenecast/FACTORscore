@@ -1,6 +1,6 @@
 # FACTORscore
 
-1. Introduction
+## 1. Introduction
 -----------------
 This script can process any continuous data(eg. RNA expressing data and CNV log2ratio values) to establish the FACTORscore, refering to this literature: Tumor microenvironment characterization in gastric cancer identifies prognostic and immunotherapeutically relevant gene signatures.
 
