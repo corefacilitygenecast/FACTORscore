@@ -1,8 +1,8 @@
 timestart<-Sys.time()
 cat("###################################################",sep = "\n")
 cat("# Author     : Fang Lu                            #",sep = "\n")
-cat("# E-mail     : fang.lu@genecast.com.cn            #",sep = "\n")
-cat("# Department : Bioinformatics Core Facility       #",sep = "\n")
+cat("# E-mail     : l.fang@genetics.ac.cn              #",sep = "\n")
+cat("# Department : IGDB,CAS                           #",sep = "\n")
 cat("# Date       : Tur Oct 20 2020                    #",sep = "\n")
 cat("# Version    : V1.0                               #",sep = "\n")
 cat("# You are using the program scripted by Fang Lu   #",sep = "\n")
@@ -59,12 +59,12 @@ spec = matrix(c(
 opt=getopt(spec)
 if(!is.null(opt$h) || is.null(opt$input) || is.null(opt$time) || is.null(opt$outdir) || is.null(opt$prefix)){
         cat(paste(getopt(spec,usage = T)))
-        cat("输入文件格式：
-        左上角必填：sample
-        CNV： 行名为samples, 列名为genes；
-        RNA： （1）以基因为单位做定量：行名为samples,列名为genes;
-              （2）以转录本为单位做定量：行名为genes，列名为samples
-        生存时间格式：sample    OS  re", sep = "\n")
+        cat("format of input matrix file：
+             top-left cell： must be "sample" character.
+             CNV data     ： row names are samples, columns names are genes;
+             RNA data     ：（1）fpkm/tpm by gene：row names are samples, column names are genes;
+                            （2）fpkm/tpm by transcript：column names are samples, row names are genes.
+             format of survival file：sample    OS  re", sep = "\n")
         q(status=1)
 }
 
