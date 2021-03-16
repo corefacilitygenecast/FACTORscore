@@ -62,8 +62,8 @@ if(!is.null(opt$h) || is.null(opt$input) || is.null(opt$time) || is.null(opt$out
         cat("format of input matrix file：
              top-left cell： must be "sample" character.
              CNV data     ： row names are samples, columns names are genes;
-             RNA data     ：（1）fpkm/tpm by gene：row names are samples, column names are genes;
-                            （2）fpkm/tpm by transcript：column names are samples, row names are genes.
+             RNA data     ：(1)fpkm/tpm by gene：row names are samples, column names are genes;
+                            (2)fpkm/tpm by transcript：column names are samples, row names are genes.
              format of survival file：sample    OS  re", sep = "\n")
         q(status=1)
 }
