@@ -13,10 +13,10 @@ Main steps:
 where i is the PC1 of groups whose HR is larger than 1, and j is the PC1 of groups whose HR less than 1.
 
 ## 2. R packages version:
-    R　　　　　　　　　　　　: 3.5.1
-    getopt　　　　　　　　　: 1.20.2
+    R　　　　　　　　　　 : 3.5.1
+    getopt　　　　　　　  : 1.20.2
     ConsensusClusterPlus : 1.46.0
-    ggsci                : 2.９
+    ggsci                : 2.9
     ggplot2              : 3.3.2
     ComplexHeatmap       : 1.18.1
     circlize             : 0.4.9
